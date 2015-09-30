@@ -1,6 +1,6 @@
 # Phoenix Kovacs - A simple ExUnit test runner
 
-### This project is fork of the original [kovacs](https://github.com/antp/kovacs). It was changed to work nicely with phoenix projects.
+### This project is a fork of the original [kovacs](https://github.com/antp/kovacs). It was changed to work nicely with phoenix projects.
 
 ## Installation
 
@@ -46,7 +46,7 @@ If you have a file in:
 
 then it will expect the test file:
 
-    test/controllers/page_controller_test.ex
+    test/controllers/page_controller_test.exs
 
 When running Kovacs, the colour output from ExUnit will not be shown. If you want to have colour output then update the projects test_helper.ex file to the following:
 
